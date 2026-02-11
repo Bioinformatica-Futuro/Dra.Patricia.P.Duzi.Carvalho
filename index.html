@@ -1,165 +1,177 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Academia BioCiências</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<title>BEPAAF | Programa Acadêmico</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
 
 <style>
 body{
     margin:0;
-    font-family:'Poppins', sans-serif;
-    background:#f4f7fb;
-    color:#333;
+    font-family:'Source Sans 3', sans-serif;
+    background:url('background.png') no-repeat center center fixed;
+    background-size:cover;
+    color:#ffffff;
+}
+.overlay{
+    background:rgba(0,0,40,0.88);
+    min-height:100vh;
 }
 header{
-    background:linear-gradient(135deg,#1f4037,#99f2c8);
-    color:white;
     text-align:center;
-    padding:80px 20px;
+    padding:60px 20px 30px 20px;
 }
-header h1{
+header img{
+    max-width:650px;
+    width:90%;
+    margin-bottom:25px;
+}
+h1{
+    font-family:'Libre Baskerville', serif;
     font-size:42px;
-    margin-bottom:15px;
-}
-header p{
-    font-size:20px;
-}
-.cta-top{
-    background:#ff9800;
-    color:white;
-    padding:18px 35px;
-    border-radius:8px;
-    text-decoration:none;
-    font-weight:600;
-    display:inline-block;
-    margin-top:25px;
-}
-section{
-    padding:70px 20px;
-    max-width:1100px;
-    margin:auto;
-}
-.card{
-    background:white;
-    padding:35px;
-    border-radius:12px;
-    box-shadow:0 15px 40px rgba(0,0,0,0.08);
-    margin-bottom:40px;
+    margin-bottom:5px;
 }
 h2{
-    color:#1f4037;
+    font-weight:300;
+    margin-top:0;
+    letter-spacing:1px;
+}
+.tagline{
+    margin-top:15px;
+    font-style:italic;
+    font-size:18px;
+}
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:50px 20px;
+}
+.card{
+    background:rgba(255,255,255,0.08);
+    padding:35px;
+    border-radius:12px;
+    margin-bottom:30px;
+    backdrop-filter:blur(10px);
+}
+h3{
+    font-size:24px;
+    margin-bottom:15px;
+}
+ul{
+    line-height:1.8;
+}
+a{
+    color:#00e5ff;
+    text-decoration:none;
+    font-weight:600;
 }
 .btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 26px;
     background:#00c853;
     color:white;
-    padding:15px 25px;
     border-radius:6px;
-    text-decoration:none;
-    display:inline-block;
-    margin-top:15px;
-    font-weight:600;
-}
-.depoimentos{
-    background:#ffffff;
-    padding:40px;
-    border-radius:12px;
-    box-shadow:0 10px 30px rgba(0,0,0,0.06);
 }
 footer{
-    background:#1f4037;
-    color:white;
     text-align:center;
     padding:30px;
+    font-size:14px;
+    background:rgba(0,0,20,0.95);
 }
-.whatsapp{
-    position:fixed;
-    bottom:20px;
-    right:20px;
-    background:#25d366;
-    color:white;
-    padding:16px 22px;
-    border-radius:50px;
-    text-decoration:none;
-    font-weight:600;
-    box-shadow:0 5px 15px rgba(0,0,0,0.3);
-}
-iframe{
-    width:100%;
-    height:450px;
-    border-radius:12px;
-}
-img{
-    max-width:100%;
-    border-radius:10px;
+hr{
+    border:1px solid rgba(255,255,255,0.1);
 }
 </style>
 </head>
 
 <body>
+<div class="overlay">
 
 <header>
-<h1>Academia BioCiências</h1>
-<p>Domine Proteínas e Bioinformática com Cursos Práticos e Direto ao Ponto</p>
-<a class="cta-top" href="#cursos">QUERO COMEÇAR AGORA</a>
+
+<!-- Banner / Brasão BEPAAF -->
+<img src="banner_bepaaf.jpg" alt="BEPAAF">
+
+<h1>Bioinformática Estrutural de Proteína</h1>
+<h2>Programa Acadêmico BEPAAF</h2>
+
+<p class="tagline">
+O futuro da ciência começa agora.
+</p>
+
 </header>
 
 <section>
-<h2>🎥 Vídeo de Apresentação</h2>
-<p>Adicione aqui seu vídeo do YouTube substituindo o link abaixo.</p>
-<iframe src="https://www.youtube.com/embed/VIDEO_ID_AQUI" frameborder="0" allowfullscreen></iframe>
-</section>
-
-<section id="cursos">
 
 <div class="card">
-<h2>🧬 Entrei na Área das Proteínas — Primeiros Passos</h2>
-<p>Ideal para iniciantes que desejam compreender proteínas de forma clara e estruturada.</p>
+<h3>📚 Estrutura do Programa Acadêmico</h3>
+
 <ul>
-<li>✔ Conceitos fundamentais</li>
-<li>✔ Aplicações práticas</li>
-<li>✔ Direcionamento profissional</li>
+<li>Fundamentos Estruturais de Proteínas</li>
+<li>Modelagem Molecular e Análise Computacional</li>
+<li>Bancos de Dados Estruturais (PDB, UniProt)</li>
+<li>Ferramentas de Bioinformática Aplicada</li>
+<li>Projeto Final com Aplicação Científica</li>
 </ul>
-<a class="btn" href="https://hotmart.com/pt-br/marketplace/produtos/entrei-na-area-das-proteinas-e-agora-primeiros-passos/I66820503O" target="_blank">
-Quero este curso
-</a>
+
+<hr>
+
+<p><strong>DOI Institucional:</strong> 10.0000/BEPAAF.2026</p>
+<p><strong>Área:</strong> Bioinformática Estrutural e Biologia Molecular Computacional</p>
+
 </div>
 
 <div class="card">
-<h2>💻 Bioinformática em 7 Dias</h2>
-<p>Aprenda bioinformática de forma intensiva e aplicável em apenas uma semana.</p>
-<ul>
-<li>✔ Fundamentos essenciais</li>
-<li>✔ Ferramentas práticas</li>
-<li>✔ Aplicações reais</li>
-</ul>
-<a class="btn" href="https://hotmart.com/pt-br/marketplace/produtos/bioinformatica-em-7-dias/Y62786774B" target="_blank">
-Quero este curso
+
+<h3>👩‍🏫 Docente Responsável</h3>
+
+<p><strong>Profa. Dra. Patrícia Pereira Duzi Carvalho</strong></p>
+
+<p>
+Currículo acadêmico disponível em:
+</p>
+
+<p>
+<a href="https://www.escavador.com/sobre/641496395/patricia-pereira-duzi-carvalho" target="_blank">
+🔗 Visualizar Currículo Lattes
 </a>
+</p>
+
 </div>
 
-</section>
+<div class="card">
 
-<section>
-<h2>⭐ Depoimentos</h2>
-<div class="depoimentos">
-<p>“Conteúdo extremamente didático e direto ao ponto.”</p>
-<p><strong>— Ana Paula, Bióloga</strong></p>
-<br>
-<p>“Aplicação imediata no laboratório. Excelente!”</p>
-<p><strong>— Rafael, Pesquisador</strong></p>
+<h3>🎓 Cursos Vinculados ao Programa</h3>
+
+<p><strong>Curso 1:</strong> Entrei na Área das Proteínas — Primeiros Passos</p>
+
+<a class="btn" href="https://go.hotmart.com/I66820503O?dp=1" target="_blank">
+👉 Clique no link e saiba mais
+</a>
+
+<br><br>
+
+<p><strong>Curso 2:</strong> Bioinformática em 7 Dias</p>
+
+<a class="btn" href="https://go.hotmart.com/Y62786774B?dp=1" target="_blank">
+👉 Clique no link e saiba mais
+</a>
+
 </div>
+
 </section>
 
 <footer>
-<p>© 2026 Academia BioCiências | Todos os direitos reservados</p>
+
+© 2026 BEPAAF — Programa Institucional em Bioinformática Estrutural de Proteínas  
+Institucional • Acadêmico • Científico  
+
 </footer>
 
-<a class="whatsapp" href="https://wa.me/5511999999999" target="_blank">
-💬 Fale no WhatsApp
-</a>
-
+</div>
 </body>
 </html>
+
